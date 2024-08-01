@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table,th,tr,td {
+            border: 3px, dashed, rgb(180, 106, 2);
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: rgb(255, 153, 0);
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(246, 223, 188);
+            border: dashed;
+            border-width: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Comparison Table</h1>
+    <table>
+        <tr>
+            <th>S/N</th>
+            <th>Product Name</th>
+            <th>Features</th>
+            <th>Shipping Fee</th>
+            <th>Price (USD)</th>
+            <th>Total Amount (USD)</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>iPhone 14</td>
+            <td>128GB, A15 Bionic chip, 12MP Camera</td>
+            <td>$10</td>
+            <td>$799</td>
+            <td>$809</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Samsung Galaxy S23	</td>
+            <td>256GB, Snapdragon 8 Gen 2, 50MP Camera</td>
+            <td>$15</td>
+            <td>$999</td>
+            <td>$1,014</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Google Pixel 7</td>
+            <td>128GB, Tensor G2 chip, 50MP Camera</td>
+            <td>$12</td>
+            <td>$599</td>
+            <td>$611</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>OnePlus 11</td>
+            <td>256GB, Snapdragon 8 Gen 2, 50MP Camera</td>
+            <td>$8</td>
+            <td>$749</td>
+            <td>$757</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Xiaomi Mi 13</td>
+            <td>256GB, Snapdragon 8 Gen 2, 50MP Camera</td>
+            <td>$14</td>
+            <td>$699</td>
+            <td>$713</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Sony Xperia 1 IV</td>
+            <td>256GB, Snapdragon 8 Gen 1, 12MP Camera	</td>
+            <td>$20</td>
+            <td>$1,299</td>
+            <td>$1,319</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Motorola Edge+	</td>
+            <td>512GB, Snapdragon 8 Gen 1, 50MP Camera	</td>
+            <td>$18</td>
+            <td>$899</td>
+            <td>$917</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Oppo Find X5 Pro</td>
+            <td>256GB, Snapdragon 8 Gen 1, 50MP Camera	</td>
+            <td>$13</td>
+            <td>$1,099</td>
+            <td>$1,112</td>
+        </tr>
+    </table>
+</body>
+</html>
